@@ -1,0 +1,70 @@
+.container{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: -10px -10px 0px -10px;
+    
+} 
+.hamburger{
+ color:#fff;
+ display: none;
+}
+.container1{
+    color: white;
+    
+}
+.menu{
+    display: flex;
+   align-self: center;
+   column-gap: 20px;
+   flex-direction: row;
+   
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.container2{
+    color: white;
+   display: flex;
+   column-gap: 20px;
+}
+.box1{
+    margin-top: 0px;
+}
+.shopping{
+   padding-top: -10px;
+
+}
+.line{
+    margin-top: -15px;
+}
+
+@media(max-width:768px){
+.container{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+} 
+   .menu{
+    flex-direction: column;
+    align-self: center;
+    row-gap: 30px;
+   }
+  
+   .hamburger{
+    display: inline;
+    font-size: 3rem;
+   }
+   .line{
+    display: none;
+   }
+   .box1{
+    display: none;
+   }
+}
