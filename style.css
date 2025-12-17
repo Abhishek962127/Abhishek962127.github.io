@@ -29,6 +29,7 @@
 .information_section a{
     color: white;
     text-decoration: none;
+    height: max-content;
 }
 .product_start{
     margin:0px 0px ;
@@ -64,16 +65,29 @@
     }
 } */
 .box{
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    margin-top: -8%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(238, 235, 230);
     
 }
-.box1{
-   clear: both;
-   float: none;
+.box1,.box2,.box3{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
-.element{
+.box1{
+    flex-grow: 2;
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: center;
+}
+
+.element{
+    
+    
 }
