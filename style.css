@@ -1,70 +1,79 @@
-.container{
-    background-color: black;
-    display:flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: -10px -10px 0px -10px;
-    
-} 
-.hamburger{
- color:#fff;
- display: none;
-}
-.container1{
-    color: white;
-    
-}
-.menu{
+.first_look{
+    background-color:#131921;
     display: flex;
-   align-self: center;
-   column-gap: 20px;
-   flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   /* margin: 0 !important; */
+   position: static;
+  
+}
+.logo_look{
+   background-color: black;
+   display: grid;
+   margin-left: 0%;
+}
+.abhi{
+    gap: 10px;
+    color: #ffff;
+    text-decoration: none;
+}
+.information_section{
+    display: flex;
+    background-color: #232f3e;
+    color:white;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.information_section a{
+    color: white;
+    text-decoration: none;
+}
+.product_start{
+    margin:0px 0px ;
+    display:flex ;
+    height: 70%;
    
 }
-.menu a{
-    text-decoration: none;
-    color:white;
+.product_start a {
+  display: inline-block;
+
 }
-.container2{
-    color: white;
-   display: flex;
-   column-gap: 20px;
+
+.product_start img {
+  width: 100%;
+  height: auto;
+  /* transition: transform 10s ease; */
+
+  /* animation: scroll 20s linear infinite; */
+}
+
+/* .product_start img:hover {
+  
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0,0, 0,2);
+  
+} */
+/* @keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translatex(-40%);
+    }
+} */
+.box{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    text-align: center;
+    
 }
 .box1{
-    margin-top: 0px;
+   clear: both;
+   float: none;
 }
-.shopping{
-   padding-top: -10px;
-
-}
-.line{
-    margin-top: -15px;
-}
-
-@media(max-width:768px){
-.container{
-    background-color: black;
-    display:flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-} 
-   .menu{
-    flex-direction: column;
-    align-self: center;
-    row-gap: 30px;
-   }
-  
-   .hamburger{
-    display: inline;
-    font-size: 3rem;
-   }
-   .line{
-    display: none;
-   }
-   .box1{
-    display: none;
-   }
+.element{
+    display: flex;
+    justify-content: space-around;
 }
